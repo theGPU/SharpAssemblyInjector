@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SharpAssemblyInjector.Lib\SharpAssemblyInjector.Lib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\theCPU\.nuget\packages\reloaded.assembler\1.0.14\build\FASMX64.DLL" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\theCPU\.nuget\packages\reloaded.assembler\1.0.14\build\FASM.DLL" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\theCPU\.nuget\packages\reloaded.assembler\1.0.14\build\FASM-LICENSE.TXT" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\theCPU\.nuget\packages\reloaded.assembler\1.0.14\build\FASMX64.DLL" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\theCPU\.nuget\packages\reloaded.assembler\1.0.14\build\FASM.DLL" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\theCPU\.nuget\packages\reloaded.assembler\1.0.14\build\FASM-LICENSE.TXT" />
+  </ItemGroup>
+
+</Project>
